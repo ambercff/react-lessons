@@ -1,12 +1,8 @@
-/* Mapeia a Tela*/
 .gridConteiner {
-    /* abre espaço entre as linhas e colunas  */
     gap: 3px; 
 
     display: grid;
-    /* Usar o Vh que é a forma de definir a altura de forma mais precisa*/
     height: 100vh; 
-    /* A largura em 100% é precisa, diferente da altura*/
     
 
     /* quantidade de colunas e tamanho das mesmas
@@ -26,16 +22,13 @@
 }
 
 header {
-    /* estilização do cebecalho */
     grid-area: cabecalho;
 }
 
 aside {
-    /* estilização da lateral */
     grid-area: lateral;
 }
 
 main {
-       /* estilização do conteudo */
     grid-area: conteudo;
 }
