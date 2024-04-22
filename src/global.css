@@ -4,9 +4,9 @@
 para reaproveitar a estilização posteriormente*/
 /* desse modo toda vez que for utiliza a cor definida */
 :root {
-    --preto: #000;
-    --branco: #fff;
-    --cinza-claro: #dcdcdd;
+    --preto: #0D160B;
+    --branco: #FBFFFE;
+    --cinza: #8C8A93;
 }
 
 /* Zerando a pré-formatação do navegador*/
@@ -21,5 +21,5 @@ para reaproveitar a estilização posteriormente*/
 
 /* Componente que cham a cor atribuida na variavel */ 
 body {
-    background-color: var(--cinza-claro);
+    background-color: var(--cinza);
 }

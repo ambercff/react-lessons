@@ -1,6 +1,8 @@
 .container {
     display: flex;
-    padding: 10px;
+    padding: 5px;
     background-color: #fff;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
