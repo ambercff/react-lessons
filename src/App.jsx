@@ -1,13 +1,12 @@
 // impotação dos componentes que irá estruturar a pagina
-import { Inicial } from './paginas/Inicial'
 import './global.css'
-import { Login } from './paginas/Login'
-import { Perfil } from './paginas/Perfil'
+import { BrowserRouter } from 'react-router-dom'
+import { Rotas } from './rotas/Rotas'
 
 export function App() {
   return (
-        // <Inicial/>
-        // <Login />
-        <Perfil />
+    <BrowserRouter>
+      <Rotas />
+    </BrowserRouter>
   )
 }

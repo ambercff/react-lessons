@@ -28,6 +28,7 @@ export function Perfil(){
         <div className={styles.container}>
             <form className={styles.formulario} 
             onSubmit={handleSubmit(obterDadosFormulario)}>
+                <p className={styles.titulo}>Perfil</p>
                 <input
                 {...register('nome')} // Pegando todos os recursos da funçõo register
                 placeholder="Nome" 
